@@ -7,12 +7,12 @@ namespace ExampleMethondTest
     public class ExampleTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void Calcolo1()
         {
             bool a = ExampleFirstMethond.Calcolo1();
-            Assert.AreEqual(true, a);
+            Assert.AreEqual(false, a);
         }
-        public void TestMethod2()
+        public void Calcolo2()
         {
             bool b = ExampleFirstMethond.Calcolo2();
             Assert.AreEqual(true, b);
